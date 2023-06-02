@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="56.112" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Registering Demo" name="User register for demo page" time="55.934">
+<system-out><![CDATA[
+Given user enter "shravan" text into "First Name"...........................passed
+And user enter "Kumar" text into "Last Name"................................passed
+And user enter "Hyderabad" text into "Adress"...............................passed
+Then user enter random 10 char into "Email address*"........................passed
+And user enter random 10 number into "Phone*"...............................passed
+And user enter "7418529630" text into "Password"............................passed
+And user enter "7418529630" text into "CPassword"...........................passed
+And user select "Java" from "Select Skills" section.........................passed
+And user select "1995" from "year " section.................................passed
+And user select "May" from "Month" section..................................passed
+And user select "23" from " Day " section...................................passed
+And user select "Vietnamese" from "Languages" lable.........................passed
+When user click on " Male ".................................................passed
+And user select "United States of America" from "Select Country :" lable....passed
+Then assert "Automation Demo Site" is displayed in header...................passed
+Then assert "WebTable" is displayed in header...............................passed
+When user click on "Refresh" button.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
