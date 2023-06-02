@@ -27,3 +27,4 @@ Feature: multiple language regestration
             | Corel Draw         |
             | Fortran            |
             | Implementation     |
+            | Java               |
