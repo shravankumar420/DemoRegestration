@@ -2,11 +2,6 @@
 variables:
 - name: BuildParameters.mavenPOMFile
   value: pom.xml
-schedules:
-- cron: 9 20 * * *
-  branches:
-    include:
-    - refs/heads/main
 name: $(date:yyyyMMdd)$(rev:.r)
 jobs:
 - job: Job_1
